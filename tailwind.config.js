@@ -8,7 +8,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': '500px',
+      'sm': '480px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -25,6 +25,7 @@ module.exports = {
     },
     colors: {
       'transparent': 'transparent',
+      'hero-bg': 'rgba(5, 9, 18, .5)',
       'blue-50': 'rgb(231, 232, 234)',
       'blue-100': 'rgb(179, 182, 189)',
       'blue-200': 'rgb(143, 147, 157)',
@@ -54,18 +55,18 @@ module.exports = {
       'white-600': 'rgb(228, 228, 232)',
       'white-700': 'rgb(178, 178, 181)',
       'white-800': 'rgb(138, 138, 140)',
-      'white-9000': 'rgb(105, 105, 107)',
+      'white-900': 'rgb(105, 105, 107)',
     },
     fontFamily: {
       sans: ['Roberto', 'sans-serif'],
     },
     fontSize: {
-      'heading-lg': '2.441em',
-      'heading-md': '1.953em',
-      'heading-sm': '1.563em',
-      'body-lg': '1.25em',
-      'body-md': '1em',
-      'body-sm': '.8em'
+      'heading-lg': '34px',
+      'heading-md': '28px',
+      'heading-sm': '22px',
+      'body-lg': '18px',
+      'body-md': '14px',
+      'body-sm': '12px'
     },
     fontWeight: {
       'hairline': 100,

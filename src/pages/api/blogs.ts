@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import axios from 'axios'
 import type { NextApiRequest, NextApiResponse } from 'next'
 
@@ -7,21 +6,22 @@ type Data = {
   error?: string,
 }
 
-export default async function handler(
+export default async function getBlogs(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  await axios.get('https://api.bigcommerce.com/stores/jo3a1dt1/v3/catalog/products', {
+  await axios.get('https://api.bigcommerce.com/stores/jo3a1dt1/v2/blog/posts', {
     headers: {
       accept: 'application/json',
       'X-Auth-Token': 'axkiw2t6o9us7bcafi83lxcdzl3f65t'
     },
     params: {
-      sku: 'THX-1138',
-      include: 'images' 
+      is_published: true,
+      limit: 3
     }
   }).then(({data}) => {
-    res.status(200).json({ data: data.data }) 
+    console.log('data', data)
+    res.status(200).json({ data }) 
   }).catch(({error}) => {
     res.status(400).json({ error })
   })

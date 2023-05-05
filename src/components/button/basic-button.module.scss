@@ -1,0 +1,49 @@
+.sb-basic-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+
+  &--square {
+    border-radius: 5px;
+  }
+
+  &--round {
+    border-radius: 50px;
+  }
+
+  &--small {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding: 0 24px;
+    height: 30px;
+    font-weight: 500;
+  }
+
+  &--medium {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    padding: 0 24px;
+    height: 36px;
+    font-weight: 500;
+  }
+
+  &--large {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    padding: 0 24px;
+    height: 40px;
+    font-weight: 500;
+  }
+}
+.start-icon {
+  margin-right: 8px;
+}
+.end-icon {
+  margin-left: 8px;
+}
