@@ -37,9 +37,9 @@ export const Header = () => {
             <HamburgerMenu animationType="rotateX" stroke="#FFFFFF" active={active} setActive={setActive}/>
           </div>
           <div className="lg:w-[100px] flex justify-start items-center hover:cursor-pointer">
-            <a href="/">
+            <Link href="/">
               <Image src="/db.webp" alt="ARKH logo" width="60" height="60" />
-            </a>
+            </Link>
           </div>
           <ul className="hidden lg:flex justify-around items-center space-x-8">
             {links.map((link, i) => {

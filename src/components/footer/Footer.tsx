@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Footer = ({ companyDescription, footerLinks }: any) => {
   return (
     <footer className="flex justify-center w-[100%] bg-on-background text-background bg-blue-600 text-white-50">
@@ -18,7 +20,7 @@ export const Footer = ({ companyDescription, footerLinks }: any) => {
                     {link.children.map((child: any, j: number) => {
                       return (
                         <li key={j}>
-                          <a href={child.url}>{child.label}</a>
+                          <Link href={child.url}>{child.label}</Link>
                         </li>
                       );
                     })}
