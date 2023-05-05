@@ -1,8 +1,7 @@
-
 import { Footer } from '../components/footer/Footer';
 import { Header } from '../components/header/Header';
 
-export default function Layout({ children }: any) {
+export default function Layout({ children }) {
   const footerLinks = [
     {
       label: 'Quick Links',

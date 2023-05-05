@@ -1,12 +1,10 @@
 import Image from 'next/image';
-import Layout from '@/layouts/Layout';
+import Layout from '../layouts/Layout';
 import Head from 'next/head';
-import { BasicButton } from '@/components/button/BasicButton';
-import getBlogs from './api/blogs';
+import { BasicButton } from '../components/button/BasicButton';
 import axios from 'axios';
 
-export default function Home({ blogs, product }: any) {
-  console.log('products', product);
+export default function Home({ blogs, product }) {
   return (
     <Layout>
       <Head>
@@ -115,7 +113,7 @@ export default function Home({ blogs, product }: any) {
           <p className="text-body-md">Blog</p>
           <h2 className="text-heading-md">Our Latest News</h2>
           <div className="flex space-y-8 lg:space-y-0 lg:space-x-8 flex-col lg:flex-row justify-center py-12">
-            {blogs.map((blog: any, index: number) => {
+            {blogs.map((blog, index) => {
               return (
                 <div
                   className="flex flex-col flex-start text-left w-[300px] space-y-4 box-shadow--4 rounded-lg"

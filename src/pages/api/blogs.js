@@ -1,14 +1,8 @@
 import axios from 'axios'
-import type { NextApiRequest, NextApiResponse } from 'next'
-
-type Data = {
-  data?: string,
-  error?: string,
-}
 
 export default async function getBlogs(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
+  req,
+  res
 ) {
   await axios.get('https://api.bigcommerce.com/stores/jo3a1dt1/v2/blog/posts', {
     headers: {
@@ -20,7 +14,6 @@ export default async function getBlogs(
       limit: 3
     }
   }).then(({data}) => {
-    console.log('data', data)
     res.status(200).json({ data }) 
   }).catch(({error}) => {
     res.status(400).json({ error })

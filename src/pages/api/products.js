@@ -1,15 +1,9 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import axios from 'axios'
-import type { NextApiRequest, NextApiResponse } from 'next'
-
-type Data = {
-  data?: string,
-  error?: string,
-}
 
 export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
+  req,
+  res 
 ) {
   await axios.get('https://api.bigcommerce.com/stores/jo3a1dt1/v3/catalog/products', {
     headers: {

@@ -3,14 +3,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import styles from './hamburger-menu.module.scss';
 
-export interface MenuProps {
-  animationType: string;
-  stroke: string;
-  active: boolean;
-  setActive: any;
-}
-
-export const HamburgerMenu = ({ animationType, stroke, active, setActive, ...props }: MenuProps) => {
+export const HamburgerMenu = ({ animationType, stroke, active, setActive, ...props }) => {
 
   const toggleClass = () => {
     setActive(!active);

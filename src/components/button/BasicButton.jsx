@@ -16,7 +16,7 @@ export const BasicButton = ({
   onClick,
   stretch,
   ...props
-}: any) => {
+}) => {
   return (
     <button
       type="button"

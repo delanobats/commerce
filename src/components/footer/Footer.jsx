@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export const Footer = ({ companyDescription, footerLinks }: any) => {
+export const Footer = ({ companyDescription, footerLinks }) => {
   return (
     <footer className="flex justify-center w-[100%] bg-on-background text-background bg-blue-600 text-white-50">
       <div className="max-w-[1440px] w-[100%] px-8 py-12 lg:p-20">
@@ -12,12 +12,12 @@ export const Footer = ({ companyDescription, footerLinks }: any) => {
             </p>
           </div>
           <div className="flex justify-between flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-20">
-            {footerLinks.map((link: any, i: number) => {
+            {footerLinks.map((link, i) => {
               return (
                 <div className="lg:pl-4 w-[140px]" key={i}>
                   <h6 className="mb-4 text-body-lg">{link.label}</h6>
                   <ul className="text-body-sm space-y-4">
-                    {link.children.map((child: any, j: number) => {
+                    {link.children.map((child, j) => {
                       return (
                         <li key={j}>
                           <Link href={child.url}>{child.label}</Link>
