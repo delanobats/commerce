@@ -1,31 +1,4 @@
 {
-  "env": {
-    "es2021": true,
-    "jest": true
-  },
   "extends": ["next/core-web-vitals"],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "plugins": ["prettier"],
-  "ignorePatterns": ["node_modules", ".next",  "tailwind.config.js"],
-  "rules": {
-    "react/react-in-jsx-scope": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "semi": true,
-        "tabWidth": 2,
-        "printWidth": 100,
-        "singleQuote": true,
-        "trailingComma": "es5",
-        "quoteProps": "consistent",
-        "htmlWhitespaceSensitivity": "ignore"
-      }
-    ]
-  }
+  "ignorePatterns": ["node_modules", ".next",  "tailwind.config.js"]
 }
