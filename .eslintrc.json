@@ -1,0 +1,15 @@
+{
+  "env": {
+    "es2021": true,
+    "jest": true
+  },
+  "extends": ["next/babel","next/core-web-vitals"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["node_modules", ".next",  "tailwind.config.js"]
+}
