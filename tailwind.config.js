@@ -31,6 +31,7 @@ module.exports = {
       'blue-200': 'rgb(143, 147, 157)',
       'blue-300': 'rgb(92, 98, 113)',
       'blue-400': 'rgb(60, 68, 85)',
+      'light-bg': 'rgba(179, 182, 189, .1)',
       'blue-500': 'rgb(11, 21, 43)',
       'blue-600': 'rgb(10, 19, 39)',
       'blue-700': 'rgb(8, 15, 31)',
@@ -56,17 +57,19 @@ module.exports = {
       'white-700': 'rgb(178, 178, 181)',
       'white-800': 'rgb(138, 138, 140)',
       'white-900': 'rgb(105, 105, 107)',
+      'dialog-background': 'rgba(0, 0, 0, .2)',
     },
     fontFamily: {
-      sans: ['Roberto', 'sans-serif'],
+      sans: ['Teko', 'sans-serif'],
+      cursive: ['Yellowtail', 'cursive']
     },
     fontSize: {
-      'heading-lg': '34px',
-      'heading-md': '28px',
-      'heading-sm': '22px',
-      'body-lg': '18px',
-      'body-md': '14px',
-      'body-sm': '12px'
+      'heading-lg': '48px',
+      'heading-md': '34px',
+      'heading-sm': '28px',
+      'body-lg': '21px',
+      'body-md': '18px',
+      'body-sm': '16px'
     },
     fontWeight: {
       'hairline': 100,
@@ -92,6 +95,9 @@ module.exports = {
       '3xl': '24px',
       'full': '9999px',
       'large': '12px',
+    },
+    backgroundImage: {
+      "flow-bg": "url('/flow-bg.webp')",
     },
     extend: {
       backgroundImage: {

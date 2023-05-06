@@ -32,7 +32,7 @@ export default function Layout({ children }) {
     <main className='flex flex-col items-center w-[100%] bg-white-50'>
       <Header />
       {children}
-      {/* <div className='min-h-[calc(100vh-60px)] max-w-[1440px] w-[100%] p-4'>{children}</div> */}
+      <div className="mt-40 md:mt-20"></div>
       <Footer companyDescription={companyDescription} footerLinks={footerLinks} />
     </main>
   );

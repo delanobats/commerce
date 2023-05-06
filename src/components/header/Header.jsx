@@ -44,7 +44,7 @@ export const Header = () => {
           <ul className="hidden lg:flex justify-around items-center space-x-8">
             {links.map((link, i) => {
               return (
-                <li key={i} className="text-body-md text-white-600 font-regular hover:text-white-50">
+                <li key={i} className="text-body-lg text-white-600 font-regular hover:text-white-50">
                   <Link href={link.url}>{link.label}</Link>
                 </li>
               );
@@ -67,7 +67,7 @@ export const Header = () => {
         <ul className="flex flex-col space-y-4">
           {links.map((link, i) => {
             return (
-              <li key={i} className="text-body-md text-white-600 px-6 py-1 font-light hover:text-white-50">
+              <li key={i} className="text-body-lg text-white-600 px-6 py-1 font-light hover:text-white-50">
                 <Link href={link.url} className='w-[100%] h-[100%]'>{link.label}</Link>
               </li>
             );
