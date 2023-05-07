@@ -1,7 +1,7 @@
 import { Dialog } from '../components/dialog/Dialog';
 import { Footer } from '../components/footer/Footer';
 import { Header } from '../components/header/Header';
-import Modal from '../components/modal/modal';
+import Modal from '../components/modal/Modal';
 import Sidebar from '../components/sidebar/Sidebar';
 import CartSidebarView from '../components/sidebar/cart/CartSideBar';
 import { useUI } from '../contexts/managed-ui';
