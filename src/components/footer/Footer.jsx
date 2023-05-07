@@ -1,7 +1,33 @@
 import Link from "next/link";
 import Newsletter from "../newsletter/Newsletter";
 
-export const Footer = ({ companyDescription, footerLinks }) => {
+export const Footer = () => {
+  const footerLinks = [
+    {
+      label: 'Quick Links',
+      children: [
+        {
+          label: 'Shop',
+          url: '/shop',
+        },
+        {
+          label: 'Technology',
+          url: '/technology',
+        },
+        {
+          label: 'Team',
+          url: '/team',
+        },
+        {
+          label: 'Blog',
+          url: '/blog',
+        },
+      ],
+    },
+  ];
+
+  const companyDescription =
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
   return (
     <footer className="flex justify-center w-[100%] bg-on-background text-background bg-blue-700 text-white-50 relative">
       <Newsletter />

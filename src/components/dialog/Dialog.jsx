@@ -25,7 +25,7 @@ export const Dialog = ({
 
   return (
     <>
-      <input
+      {/* <input
         type="checkbox"
         checked={stateChecked}
         readOnly
@@ -46,7 +46,7 @@ export const Dialog = ({
           className="absolute top-0 left-0 w-[100vw] h-[100vh] cursor-pointer"
           htmlFor="dialog-state"
           onClick={() => setStateChecked(!stateChecked)}
-        ></label>
+        ></label> */}
         <div
           className={`relative z-[1] block box-border mx-auto my-0 top-[50%] translate-y-[-50%] w-[100%] max-w-[320px] p-[16px] rounded-lg bg-[#fff] overflow-hidden box-shadow--${boxShadow}`}
         >
@@ -123,11 +123,11 @@ export const Dialog = ({
             )}
           </div>
         </div>
-      </div>
-      <label htmlFor="dialog-state" onClick={() => setStateChecked(!stateChecked)}>
+      {/* </div> */}
+      {/* <label htmlFor="dialog-state" onClick={() => setStateChecked(!stateChecked)}>
         {triggerButton}
       </label>
-      <div className="absolute bottom-0 left-0 w-[100%] h-[100px] box-border bg-background text-on-background text-left p-[2px] overflow-y-scroll hidden"></div>
+      <div className="absolute bottom-0 left-0 w-[100%] h-[100px] box-border bg-background text-on-background text-left p-[2px] overflow-y-scroll hidden"></div> */}
     </>
   );
 };

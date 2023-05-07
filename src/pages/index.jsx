@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Layout from '../layouts/Layout';
 import Head from 'next/head';
 import { BasicButton } from '../components/button/BasicButton';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import axiosInstance from '../utils/axios';
 
 export default function Home({ blogs, product }) {
   return (
-    <Layout>
+    <>
       <Head>
         <title>Delano Bats</title>
         <meta charSet="UTF-8" />
@@ -59,7 +58,7 @@ export default function Home({ blogs, product }) {
         <div className="w-[100%] flex justify-center bg-light-bg">
           <div className="max-w-[1440px] flex flex-col items-center py-12 text-center">
             <p className="text-body-lg font-cursive text-orange-500">Features</p>
-            <h2 className="text-heading-lg">Thoughtfully Designed</h2>
+            <h2 className="text-heading-lg text-blue-900">Thoughtfully Designed</h2>
             <div className="flex flex-col lg:flex-row space-y-12 lg:space-y-0 lg:space-x-6 justify-center py-12">
               <div className="flex flex-col items-center w-[300px] space-y-2">
                 <Image src="/surface.webp" width="300" height="300" alt="Hitting surface" />
@@ -159,7 +158,7 @@ export default function Home({ blogs, product }) {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
 }
 

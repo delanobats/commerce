@@ -57,11 +57,11 @@ module.exports = {
       'white-700': 'rgb(178, 178, 181)',
       'white-800': 'rgb(138, 138, 140)',
       'white-900': 'rgb(105, 105, 107)',
-      'dialog-background': 'rgba(0, 0, 0, .2)',
+      'dialog-bg': 'rgba(0, 0, 0, .4)',
     },
     fontFamily: {
       sans: ['Teko', 'sans-serif'],
-      cursive: ['Yellowtail', 'cursive']
+      cursive: ['Yellowtail', 'cursive'],
     },
     fontSize: {
       'heading-lg': '48px',
@@ -69,7 +69,7 @@ module.exports = {
       'heading-sm': '28px',
       'body-lg': '21px',
       'body-md': '18px',
-      'body-sm': '16px'
+      'body-sm': '16px',
     },
     fontWeight: {
       'hairline': 100,
@@ -97,7 +97,7 @@ module.exports = {
       'large': '12px',
     },
     backgroundImage: {
-      "flow-bg": "url('/flow-bg.webp')",
+      'flow-bg': "url('/flow-bg.webp')",
     },
     extend: {
       backgroundImage: {
