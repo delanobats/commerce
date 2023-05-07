@@ -34,16 +34,16 @@ export const Header = () => {
     },
   ];
 
-  // useEffect(() => {
-  //   const dropdown = ref.current;
+  useEffect(() => {
+    const dropdown = ref.current;
 
-  //   if (active) {
-  //     disableBodyScroll(dropdown, { reserveScrollBarGap: false });
-  //   }
-  //   return () => {
-  //     clearAllBodyScrollLocks();
-  //   };
-  // }, [active]);
+    if (active) {
+      disableBodyScroll(dropdown, { reserveScrollBarGap: false });
+    }
+    return () => {
+      clearAllBodyScrollLocks();
+    };
+  }, [active]);
 
   return (
     <>
@@ -80,6 +80,7 @@ export const Header = () => {
         </div>
       </header>
       <div
+        ref={ref}
         className={clsx(
           'lg:hidden w-[100%] h-full box-border overflow-hidden bg-blue-900 fixed top-[55px] opacity-0 transition-opacity duration-500 ease-in-out py-8',
           {
