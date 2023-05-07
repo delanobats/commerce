@@ -57,11 +57,11 @@ const CartSidebarView = () => {
   return (
     <div className="relative h-full flex flex-col bg-white-50">
       <header className="sticky top-0 px-4 py-4 flex items-center justify-between bg-white-500 box-border w-full z-10 min-[66px]">
-        <h2 className="text-heading-sm"> My Cart</h2>
+        <h2 className="text-heading-sm text-blue-900"> My Cart</h2>
         <button
           onClick={handleClose}
           aria-label="Close"
-          className="hover:text-accent-5 transition ease-in-out duration-150 flex items-center focus:outline-none"
+          className="hover:text-accent-5 transition ease-in-out duration-150 flex items-center focus:outline-none text-blue-900"
         >
           <AiOutlineClose className="h-6 w-6 hover:text-accent-3" />
         </button>
