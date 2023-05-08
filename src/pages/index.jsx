@@ -72,8 +72,7 @@ export default function Home({ blogs, product }) {
                 <Image src="/vibration.webp" width="300" height="300" alt="Vibration" />
                 <h3 className="font-bold pt-2 text-body-md text-blue-900">Vibration</h3>
                 <p className="text-blue-900">
-                  Optimized vibration damping. Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit.
+                  changing this copy
                 </p>
               </div>
               <div className="flex flex-col items-center w-[300px] space-y-2">
