@@ -17,19 +17,19 @@ export const Header = () => {
       url: '/',
     },
     {
-      label: 'Shop',
-      url: '/shop',
-    },
-    {
       label: 'FZN Technology',
       url: '/technology',
+    },
+    {
+      label: 'About',
+      url: '/about',
     },
     {
       label: 'Team',
       url: '/team',
     },
     {
-      label: 'Blog',
+      label: 'Our Blog',
       url: '/blog',
     },
   ];

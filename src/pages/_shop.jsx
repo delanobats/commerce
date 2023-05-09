@@ -14,11 +14,8 @@ export default function Shop({ product, variants }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const { state, dispatch } = useContext(CartContext);
-  // console.log('product', product);
-  // console.log('variants', variants);
 
   const addToCart = () => {
-    console.log('addToCart');
     setLoading(true);
     setError(null);
     dispatch({ type: 'FETCH_REQUEST' });
@@ -34,7 +31,6 @@ export default function Shop({ product, variants }) {
         ],
       })
       .then((res) => {
-        console.log('res', res);
         dispatch({ type: 'FETCH_SUCCESS', payload: res.data.data.data });
         Cookies.set('bc_cartId', res.data.data.data.id, { expires: 7 });
         setSidebarView('CART_VIEW');
@@ -42,7 +38,6 @@ export default function Shop({ product, variants }) {
         setLoading(false);
       })
       .catch((error) => {
-        console.error(error);
         dispatch({ type: 'FETCH_FAILURE', payload: error.message });
         setError({
           ...error,
@@ -61,10 +56,7 @@ export default function Shop({ product, variants }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href="/db.webp" />
       </Head>
-      <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
-        shop
-        {/* <BasicButton label="Add to Cart" onClick={addToCart} /> */}
-      </div>
+      <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center"></div>
     </>
   );
 }

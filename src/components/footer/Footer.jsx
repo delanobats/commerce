@@ -1,5 +1,5 @@
-import Link from "next/link";
-import Newsletter from "../newsletter/Newsletter";
+import Link from 'next/link';
+import Newsletter from '../newsletter/Newsletter';
 
 export const Footer = () => {
   const footerLinks = [
@@ -7,19 +7,19 @@ export const Footer = () => {
       label: 'Quick Links',
       children: [
         {
-          label: 'Shop',
-          url: '/shop',
+          label: 'FZN Technology',
+          url: '/technology',
         },
         {
-          label: 'Technology',
-          url: '/technology',
+          label: 'About',
+          url: '/about',
         },
         {
           label: 'Team',
           url: '/team',
         },
         {
-          label: 'Blog',
+          label: 'Our Blog',
           url: '/blog',
         },
       ],
@@ -35,9 +35,7 @@ export const Footer = () => {
         <div className="flex flex-col lg:flex-row space-y-10 lg:space-x-20 lg:space-y-0">
           <div>
             <h4 className="text-heading-md">Delano Bat Company, LLC</h4>
-            <p className="font-thin max-w-[360px] text-body-md pt-4">
-              {companyDescription}
-            </p>
+            <p className="font-thin max-w-[360px] text-body-md pt-4">{companyDescription}</p>
           </div>
           <div className="flex justify-between flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-20">
             {footerLinks.map((link, i) => {

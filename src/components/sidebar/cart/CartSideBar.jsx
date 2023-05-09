@@ -14,7 +14,6 @@ const CartSidebarView = () => {
   const { closeSidebar, setSidebarView } = useUI();
   const { state, dispatch } = useContext(CartContext);
 
-  console.log('state', state);
   //   const { data, isLoading, isEmpty } = useCart()
 
   //   const { price: subTotal } = usePrice(
@@ -34,13 +33,11 @@ const CartSidebarView = () => {
 
   // useEffect(() => {
   //   // if (state) {
-  //   console.log('useEffect');
   //   dispatch({ type: 'FETCH_REQUEST' });
 
   //   axios
   //     .get('/api/get-cart')
   //     .then((res) => {
-  //       console.log('success!!!', res);
   //       dispatch({ type: 'FETCH_SUCCESS', payload: res.data.data.data });
   //       // Cookies.set('bc_cartId', res.data.data.data.id, { expires: 7 });
   //     })
@@ -142,14 +139,14 @@ const CartSidebarView = () => {
             </p>
             <div>
               {/* TODO: Make this a link */}
-              <BasicButton
+              {/* <BasicButton
                 href={state?.data?.redirect_urls?.checkout_url ?? '/checkout'}
                 width="100%"
                 label="Proceed to Checkout"
                 stretch={true}
               >
                 Proceed to Checkout
-              </BasicButton>
+              </BasicButton> */}
             </div>
           </div>
         </>
