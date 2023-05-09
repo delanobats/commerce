@@ -90,15 +90,15 @@ export const Header = () => {
           }
         )}
       >
-        <ul className="flex flex-col space-y-4">
+        <ul className="flex flex-col">
           {links.map((link, i) => {
             return (
               <li
                 key={i}
-                className="text-body-lg text-white-600 px-6 py-1 font-light hover:text-white-50"
+                className="text-body-lg flex text-white-600 font-light hover:text-white-50"
                 onClick={() => setActive(false)}
               >
-                <Link href={link.url} className="w-[100%] h-[100%]">
+                <Link href={link.url} className="w-[100%] flex-grow-1 px-6 py-3  h-[100%]">
                   {link.label}
                 </Link>
               </li>

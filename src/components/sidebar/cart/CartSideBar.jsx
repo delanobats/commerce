@@ -130,23 +130,23 @@ const CartSidebarView = () => {
                 <span className="font-bold tracking-wide">FREE</span>
               </li>
             </ul> */}
-            <div className="flex justify-between text-body-lg">
+            <div className="flex justify-between text-body-lg text-blue-900">
               <span>Total</span>
               <span>$0.00</span>
             </div>
-            <p className="text-body-sm mt-2 mb-6">
+            <p className="text-body-sm mt-2 mb-6 text-blue-900">
               Shipping and taxes will be calculated at checkout.
             </p>
             <div>
               {/* TODO: Make this a link */}
-              {/* <BasicButton
-                href={state?.data?.redirect_urls?.checkout_url ?? '/checkout'}
+              <BasicButton
+                // href={state?.data?.redirect_urls?.checkout_url ?? '/checkout'}
                 width="100%"
                 label="Proceed to Checkout"
                 stretch={true}
               >
                 Proceed to Checkout
-              </BasicButton> */}
+              </BasicButton>
             </div>
           </div>
         </>

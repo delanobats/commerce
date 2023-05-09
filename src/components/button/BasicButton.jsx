@@ -15,11 +15,12 @@ export const BasicButton = ({
   configuration,
   onClick,
   stretch,
+  href,
   ...props
 }) => {
   return (
-    <button
-      type="button"
+    <a
+      href={href}
       className={clsx(
         styles['sb-basic-button'],
         styles[`sb-basic-button--${size}`],
@@ -40,6 +41,6 @@ export const BasicButton = ({
       {startIcon && <span className="mr-2">{startIcon}</span>}
       {label}
       {endIcon && <span className="ml-2">{endIcon}</span>}
-    </button>
+    </a>
   );
 };

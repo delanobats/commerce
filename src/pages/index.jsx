@@ -79,7 +79,7 @@ export default function Home({ blogs }) {
           </div>
         </div> */}
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4">
-          <p className="text-heading-sm font-cursive text-orange-500">Coming this spring</p>
+          <p className="text-heading-sm font-cursive text-orange-500">Coming this summer</p>
           <h2 className="text-heading-lg text-blue-900">FZN Technology</h2>
           <p className="max-w-[600px] pt-2 text-blue-900">
             For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
@@ -93,7 +93,7 @@ export default function Home({ blogs }) {
             alt="baseball bat"
             className="py-20"
           />
-          <BasicButton label="Learn more" />
+          <BasicButton label="Learn more" href="/technology" />
         </div>
         <div className="w-[100%] flex justify-center items-center bg-light-bg bg-cover py-0">
           <div className="max-w-[1440px] flex flex-col items-center py-12 text-center">
@@ -144,7 +144,7 @@ export default function Home({ blogs }) {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
               mollit anim id est laborum.
             </p>
-            <BasicButton label="Read our story" />
+            <BasicButton label="Read our story" href="/about" />
           </div>
         </div>
       </div>

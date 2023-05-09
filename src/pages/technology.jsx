@@ -82,9 +82,8 @@ export default function Technology() {
               alt="baseball bat"
               className="py-20"
             />
-            <div className="px-12 w-[100%] max-w-[600px]">
-              <p className="text-heading-sm font-cursive text-orange-500">Why Change?</p>
-              <h2 className="text-heading-lg text-blue-900">Max Pop & Massive Barrel</h2>
+            <div className="lg:px-12 w-[100%] max-w-[600px]">
+              <h2 className="text-heading-lg text-blue-900">Why Change</h2>
               <p className="max-w-[650px] pt-2 text-blue-900">
                 In fact, our first attempt at BBCOR certification failed for TOO MUCH pop! Delano
                 Bat Company has invented FZN Technology - a patented bat design and manufacturing
@@ -113,13 +112,13 @@ export default function Technology() {
             <h4 className="text-heading-lg leading-[3rem] text-blue-900 mb-4">
               Motivated by History
             </h4>
-            <p className="text-body-md mb-4">
+            <p className="text-body-md mb-4 text-blue-900">
               The first alternative to the traditional wood bat gained popularity in the 1970s,
               about 50 years ago. It started with basic aluminum as a more durable option to wood.
               The market incrementally progressed in that direction through today, with aluminum or
               more recently, polymer composite, being primary options.
             </p>
-            <p className="text-body-md">
+            <p className="text-body-md text-blue-900">
               In that time, wood was slowly disregarded and never seriously considered as a material
               for high performing bats. Beyond MLB, wood bats were relegated to wood bat leagues and
               for those that craved the classic feel, look, sound and tradition of wood.
@@ -131,13 +130,13 @@ export default function Technology() {
             <h4 className="text-heading-lg leading-[3rem] text-blue-900 mb-4">
               Our Heritage & Mission
             </h4>
-            <p className="text-body-md mb-4">
+            <p className="text-body-md mb-4 text-blue-900">
               Delano Bats has been in the bat business for many years. We were in the solid wood
               market and heard many of our loyal customers telling us they didn’t particularly like
               the feel or sound of their alloy or composite bats but had no other options without
               sacrificing performance.
             </p>
-            <p className="text-body-md">
+            <p className="text-body-md text-blue-900">
               We were motivated by our customers and the realization that the history and aesthetic
               design components of the traditional baseball bat were being completely neglected in
               the chase for performance, and bats were still stuck in circa 1970s era thinking.
@@ -145,7 +144,7 @@ export default function Technology() {
               which became our mission, to fuse together the history of baseball (wood) with the
               most modern construction materials (composites) to give hitters the benefits of both.
             </p>
-            <p className="text-body-md">
+            <p className="text-body-md text-blue-900">
               Without being tied to legacy techniques or technologies and with a fresh perspective
               and a commitment to baseball’s heritage, we patented FZN Technology - a fusion of
               tradition and technology.
