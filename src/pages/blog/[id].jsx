@@ -83,15 +83,27 @@ export default function BlogDetail({ blog, blogs }) {
   );
 }
 
-export const getStaticPaths = async () => {
+export const getServerSidePaths = async () => {
   const paths = [];
+  const resBlogs = await axiosInstance.get('/v2/blog/posts', {
+    params: {
+      is_published: true,
+    },
+  });
+
+  const blogs = resBlogs.data;
+
+  blogs.forEach((blog) => {
+    paths.push('/blog/' + blog.id);
+  });
+
   return {
     paths,
     fallback: false,
   };
 };
 
-export const getStaticProps = async ({ params }) => {
+export const getServerSideProps = async ({ params }) => {
   let slug = params.id;
 
   const res = await axiosInstance.get(`/v2/blog/posts/${slug}`, {
