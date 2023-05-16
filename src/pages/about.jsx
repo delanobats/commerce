@@ -27,7 +27,9 @@ export default function About() {
           <div className="z-[1] text-heading-lg h-[400px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
             <div className="flex flex-col items-center py-2">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
-                <span className="font-cursive text-heading-lg font-bold">The Delano Story</span>
+                <span className="font-sans text-heading-lg font-bold">
+                  The <span className="font-cursive">Delano</span> Story
+                </span>
               </h1>
             </div>
           </div>

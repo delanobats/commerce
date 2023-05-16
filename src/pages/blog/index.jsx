@@ -26,7 +26,9 @@ export default function Shop({ blogs }) {
           <div className="z-[1] text-heading-lg h-[400px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
             <div className="flex flex-col items-center py-2">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
-                <span className="font-cursive text-heading-lg font-bold">Get on Deck</span>
+                <span className="text-heading-lg font-bold">
+                  Get <span className="font-cursive">on</span> Deck
+                </span>
               </h1>
             </div>
           </div>
@@ -40,7 +42,7 @@ export default function Shop({ blogs }) {
                     className="flex flex-col flex-start text-left w-[100%] my-4 lg:m-4 md:w-[500px] lg:w-[300px] space-y-4 box-shadow--4 rounded-lg overflow-hidden"
                     key={index}
                   >
-                    <Link href="/" width="100%">
+                    <Link href={'blog/' + blog.id} width="100%">
                       <div className="relative w-[100%] h-[190px] md:w-[500px] md:h-[300px] lg:w-[300px] lg:h-[210px]">
                         <img
                           src={'https://delanobats.com' + blog.thumbnail_path}
@@ -68,19 +70,19 @@ export default function Shop({ blogs }) {
               {blogs.map((blog, index) => {
                 return (
                   <div className="text-left w-[300px] my-1" key={index}>
-                    <Link href="/" width="100%" className="flex items-center">
-                      <div className="relative w-[200px] h-[80px]">
+                    <Link href={'blog/' + blog.id} width="100%" className="flex items-center">
+                      <div className="relative w-[180px] h-[80px]">
                         <img
                           src={'https://delanobats.com' + blog.thumbnail_path}
-                          className="object-cover object-center w-[100%] h-[100%]"
+                          className="object-cover object-center min-w-[100%] h-[100%]"
                           alt="Hitting surface"
                         />
                       </div>
-                      <div className="px-4 pb-4 pt-2">
-                        <p className="text-white-900 text-body-md mb-1">
+                      <div className="px-4 pb-4 pt-2 w-[250px]">
+                        <p className="text-white-900 text-body-sm leading-6">
                           {new Date(blog.published_date_iso8601).toDateString()}
                         </p>
-                        <p className="text-body-lg font-thin leading-7 text-blue-900">
+                        <p className="text-body-md font-thin leading-6 text-blue-900">
                           {blog.title}
                         </p>
                       </div>

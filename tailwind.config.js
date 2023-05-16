@@ -61,6 +61,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Teko', 'sans-serif'],
+      roboto: ['Roboto', 'sans-serif'],
       cursive: ['Yellowtail', 'cursive'],
     },
     fontSize: {

@@ -106,7 +106,7 @@ export default function Home({ blogs }) {
                     className="flex flex-col flex-start text-left w-[300px] md:w-[500px] lg:w-[300px] space-y-4 box-shadow--4 rounded-lg overflow-hidden"
                     key={index}
                   >
-                    <Link href="/" width="100%">
+                    <Link href={'blog/' + blog.id} width="100%">
                       <div className="relative w-[300px] h-[210px] md:w-[500px] md:h-[300px] lg:w-[300px] lg:h-[210px]">
                         <img
                           src={'https://delanobats.com' + blog.thumbnail_path}

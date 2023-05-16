@@ -85,10 +85,12 @@ export default function Technology() {
             <div className="lg:px-12 w-[100%] max-w-[600px]">
               <h2 className="text-heading-lg text-blue-900">Why Change</h2>
               <p className="max-w-[650px] pt-2 text-blue-900">
-                In fact, our first attempt at BBCOR certification failed for TOO MUCH pop! Delano
-                Bat Company has invented FZN Technology - a patented bat design and manufacturing
-                process that enables the classic lumber to push up to the limit of BBCOR-allowed
-                performance. The first of its kind!
+                Delano Bat Company has invented FZN Technology - a patented bat design and
+                manufacturing process that enables the classic lumber to push up to the limit of
+                BBCOR-allowed performance. The first of its kind!
+              </p>
+              <p className="max-w-[650px] pt-2 text-blue-900">
+                In fact, our first attempt at BBCOR certification failed for TOO MUCH pop!
               </p>
             </div>
           </div>
@@ -136,7 +138,7 @@ export default function Technology() {
               the feel or sound of their alloy or composite bats but had no other options without
               sacrificing performance.
             </p>
-            <p className="text-body-md text-blue-900">
+            <p className="text-body-md mb-4 text-blue-900">
               We were motivated by our customers and the realization that the history and aesthetic
               design components of the traditional baseball bat were being completely neglected in
               the chase for performance, and bats were still stuck in circa 1970s era thinking.
