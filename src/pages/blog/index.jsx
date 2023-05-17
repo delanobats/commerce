@@ -66,7 +66,7 @@ export default function Shop({ blogs }) {
           </div>
           <div className="hidden lg:block w-[300px]">
             <h3 className="text-heading-sm">Latest Articles</h3>
-            <div className="flex flex-col justify-start">
+            <div className="flex flex-col justify-start px-4 sm:px-0">
               {blogs.map((blog, index) => {
                 return (
                   <div className="text-left w-[300px] my-1" key={index}>
