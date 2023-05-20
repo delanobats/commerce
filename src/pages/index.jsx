@@ -157,7 +157,6 @@ export default function Home({ blogs }) {
           <iframe
             src="https://cdn.lightwidget.com/widgets/967a43eed19e5442b19367e737f23d52.html"
             allowtransparency="true"
-            class="lightwidget-widget"
             className="w-[100%] h-[420px] sm:w-[480px] sm:h-[580px] md:w-[700px] md:h-[800px] lg:w-[900px] lg:h-[1000px] xl:w-[1200px] xl:h-[1300px]"
           ></iframe>
         </div>
