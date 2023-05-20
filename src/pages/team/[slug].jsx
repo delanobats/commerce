@@ -5,24 +5,30 @@ export default function TeamDetail({ teamMember, slug }) {
   return (
     <>
       <Head>
-        <title>Delano Bats - Team Details</title>
+        <title>
+          Delano Bats - {teamMember.firstname} {teamMember.lastname}
+        </title>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="ARKH" key="title" />
-        <meta name="description" content="" />
+        <meta property="og:title" content="Delano Bats" key="title" />
+        <meta
+          name="description"
+          content="We hope it’s the beginning of a long partnership of providing great products and lasting
+            success and memories on the diamond. Learn more about our team"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/db.webp" />
+        <link rel="icon" href="/db.svg" />
       </Head>
 
-      <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
-        <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[400px] relative overflow-hidden">
+      <div className="min-h-[70vh] w-[100%] flex flex-col items-center">
+        <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] relative overflow-hidden">
           <div className="absolute top-0 z-[0] min-w-[100%] h-[100%]">
             <img
-              src="/blog-1.webp"
+              src="/team/team-member-bg.webp"
               className="object-cover object-center w-[100%] h-[100%]"
               alt="hero background"
             />
           </div>
-          <div className="z-[1] text-heading-lg h-[400px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
+          <div className="z-[1] text-heading-lg h-[300px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
             <div className="flex flex-col items-center py-2">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
                 <span className="text-heading-sm font-cursive md:text-heading-md lg:text-heading-lg font-bold">
@@ -39,7 +45,7 @@ export default function TeamDetail({ teamMember, slug }) {
             </h1>
             <p className="text-body-lg">{teamMember.job}</p>
             <div
-              className="font-thin mt-4 mb-20 blog-body"
+              className="font-thin mt-4 mb-20 blog-body text-blue-900"
               dangerouslySetInnerHTML={{ __html: teamMember.description }}
             ></div>
           </div>

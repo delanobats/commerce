@@ -10,10 +10,15 @@ export default function Home({ blogs }) {
       <Head>
         <title>Delano Bats</title>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="ARKH" key="title" />
-        <meta name="description" content="" />
+        <meta property="og:title" content="Delano Bats" key="title" />
+        <meta
+          name="description"
+          content="For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
+          performance without sacrificing the unrivaled feel, classic sound and clean look of a
+          true wood stick. All thanks to FZN Technology."
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/db.webp" />
+        <link rel="icon" href="/db.svg" />
       </Head>
       <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
         <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">
@@ -103,7 +108,7 @@ export default function Home({ blogs }) {
               {blogs.map((blog, index) => {
                 return (
                   <div
-                    className="flex flex-col flex-start text-left w-[300px] md:w-[500px] lg:w-[300px] space-y-4 box-shadow--4 rounded-lg overflow-hidden"
+                    className="flex flex-col flex-start text-left w-[300px] md:w-[500px] bg-white-50 lg:w-[300px] space-y-4 box-shadow--4 rounded-lg overflow-hidden"
                     key={index}
                   >
                     <Link href={'blog/' + blog.id} width="100%">
@@ -129,23 +134,32 @@ export default function Home({ blogs }) {
             </div>
           </div>
         </div>
-        <div className="max-w-[1440px] flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12 py-12 pb-40 text-center px-4">
+        <div className="max-w-[1440px] flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12 py-12  text-center px-4">
           <div className=" relative">
             <Image src="/magazine.webp" width={400} height={100} alt="delano bat magazine" />
           </div>
           <div className="flex flex-col items-center">
             <p className="text-heading-sm font-cursive text-orange-500">Our Story</p>
             <h2 className="text-heading-lg text-blue-900">Delano Bat Company</h2>
-            <p className="max-w-[600px] py-4 text-blue-900">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.
+            <p className="max-w-[600px] pb-6 text-blue-900">
+              Delano is a small company with a big vision - to bring innovation to the great game of
+              baseball while staying true to the unique roots, traditions and history of America's
+              Pastime.
             </p>
             <BasicButton label="Read our story" href="/about" />
           </div>
+        </div>
+        <div className="w-[100%] py-20 px-8 flex flex-col items-center justify-center">
+          <p className="text-heading-sm font-cursive text-orange-500">Follow us</p>
+          <h2 className="text-heading-lg text-blue-900 mb-4 text-center">
+            Check out our social channels
+          </h2>
+          <iframe
+            src="https://cdn.lightwidget.com/widgets/967a43eed19e5442b19367e737f23d52.html"
+            allowtransparency="true"
+            class="lightwidget-widget"
+            className="w-[100%] h-[420px] sm:w-[480px] sm:h-[580px] md:w-[700px] md:h-[800px] lg:w-[900px] lg:h-[1000px] xl:w-[1200px] xl:h-[1300px]"
+          ></iframe>
         </div>
       </div>
     </>

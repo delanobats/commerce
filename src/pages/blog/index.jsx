@@ -9,10 +9,13 @@ export default function Shop({ blogs }) {
       <Head>
         <title>Delano Bats - Blog</title>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="ARKH" key="title" />
-        <meta name="description" content="" />
+        <meta property="og:title" content="Delano Bats" key="title" />
+        <meta
+          name="description"
+          content="Get on deck for FZN Insider updates and news as we get ready to launch The Original Gamer BBCOR bat, the first Delano Bat to use FZN Technology."
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/db.webp" />
+        <link rel="icon" href="/db.svg" />
       </Head>
       <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
         <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">

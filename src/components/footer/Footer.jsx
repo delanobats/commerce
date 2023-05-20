@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Newsletter from '../newsletter/Newsletter';
+import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 export const Footer = () => {
   const footerLinks = [
@@ -27,7 +28,7 @@ export const Footer = () => {
   ];
 
   const companyDescription =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco';
+    "A small company with big plans built in the Midwest, fusing traditional values of hard work, grit and ingenuity with high-tech science & innovation to propel America's pastime into the future.";
   return (
     <footer className="flex justify-center w-[100%] bg-on-background text-background bg-blue-700 text-white-50 relative">
       <Newsletter />
@@ -61,6 +62,20 @@ export const Footer = () => {
               </p>
               <p className="pt-8 text-body-sm">Email: sales@delanobats.com</p>
               <p className="pt-4 text-body-sm">Phone: (763)331-5757</p>
+            </div>
+            <div className="lg:pl-4">
+              <h6 className="mb-4 text-heading-sm">Follow Us</h6>
+              <div className="flex space-x-6">
+                <Link href="https://www.facebook.com/delanobats/" target="_blank">
+                  <BsFacebook className="text-body-lg" />
+                </Link>
+                <Link href="https://www.instagram.com/delanobatco/" target="_blank">
+                  <BsInstagram className="text-body-lg" />
+                </Link>
+                <Link href="https://twitter.com/DelanoBats" target="_blank">
+                  <BsTwitter className="text-body-lg" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>

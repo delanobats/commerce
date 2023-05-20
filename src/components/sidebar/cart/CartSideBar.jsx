@@ -141,6 +141,7 @@ const CartSidebarView = () => {
               {/* TODO: Make this a link */}
               <BasicButton
                 // href={state?.data?.redirect_urls?.checkout_url ?? '/checkout'}
+                disabled={true}
                 width="100%"
                 label="Proceed to Checkout"
                 stretch={true}

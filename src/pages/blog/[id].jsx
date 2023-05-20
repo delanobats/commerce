@@ -6,12 +6,12 @@ export default function BlogDetail({ blog, blogs }) {
   return (
     <>
       <Head>
-        <title>Delano Bats - Blog</title>
+        <title>Delano Bats - {blog.title}</title>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="ARKH" key="title" />
-        <meta name="description" content="" />
+        <meta property="og:title" content="Delano Bats" key="title" />
+        <meta name="description" content={blog.summary} />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/db.webp" />
+        <link rel="icon" href="/db.svg" />
       </Head>
 
       <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
@@ -43,7 +43,7 @@ export default function BlogDetail({ blog, blogs }) {
                   {new Date(blog.published_date_iso8601).toDateString()}
                 </p>
                 <div
-                  className="font-thin mt-4 mb-20 blog-body"
+                  className="font-thin mt-4 mb-20 blog-body text-blue-900"
                   dangerouslySetInnerHTML={{ __html: blog.body }}
                 ></div>
               </div>

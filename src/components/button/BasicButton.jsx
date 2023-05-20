@@ -16,6 +16,7 @@ export const BasicButton = ({
   onClick,
   stretch,
   href,
+  disabled,
   ...props
 }) => {
   return (
@@ -33,6 +34,9 @@ export const BasicButton = ({
         {
           [`box-shadow--${boxShadow}`]: configuration === 'filled',
           ['w-[100%]']: stretch,
+          ['cursor-not-allowed']: disabled,
+          ['text-white-900']: disabled,
+          ['bg-white-700']: disabled,
         }
       )}
       onClick={onClick}

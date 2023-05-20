@@ -7,10 +7,15 @@ export default function Technology() {
       <Head>
         <title>Delano Bats - Technology</title>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="ARKH" key="title" />
-        <meta name="description" content="" />
+        <meta property="og:title" content="Delano Bats" key="title" />
+        <meta
+          name="description"
+          content="Delano Bat Company has invented FZN Technology - a patented bat design and
+                manufacturing process that enables the classic lumber to push up to the limit of
+                BBCOR-allowed performance. The first of its kind!"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/db.webp" />
+        <link rel="icon" href="/db.svg" />
       </Head>
       <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
         <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">
@@ -66,7 +71,7 @@ export default function Technology() {
                   <h2 className="text-heading-md leading-8 mb-6">True wood look, feel and sound</h2>
                   <p className="text-body-lg">
                     FZN a true wood bat that gives hitters the unrivaled feel, classic sound and
-                    clean look of a traditional stick
+                    clean look of a traditional stick.
                   </p>
                 </div>
               </div>

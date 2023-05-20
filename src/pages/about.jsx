@@ -10,10 +10,13 @@ export default function About() {
       <Head>
         <title>Delano Bats - About</title>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="ARKH" key="title" />
-        <meta name="description" content="" />
+        <meta property="og:title" content="Delano Bats" key="title" />
+        <meta
+          name="description"
+          content="A small company with big plans built in the Midwest, fusing traditional values of hard work, grit and ingenuity with high-tech science & innovation to propel America's pastime into the future."
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/db.webp" />
+        <link rel="icon" href="/db.svg" />
       </Head>
       <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
         <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">

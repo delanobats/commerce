@@ -135,10 +135,14 @@ export default function Team() {
       <Head>
         <title>Delano Bats - Team</title>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="ARKH" key="title" />
-        <meta name="description" content="" />
+        <meta property="og:title" content="Delano Bats" key="title" />
+        <meta
+          name="description"
+          content="We hope it’s the beginning of a long partnership of providing great products and lasting
+            success and memories on the diamond. Learn more about our team!"
+        />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href="/db.webp" />
+        <link rel="icon" href="/db.svg" />
       </Head>
       <div className="min-h-[calc(100vh-60px)] w-[100%] flex flex-col items-center">
         <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">
