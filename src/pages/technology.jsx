@@ -29,13 +29,14 @@ export default function Technology() {
           <div className="z-[1] text-heading-lg h-[400px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
             <div className="flex flex-col items-center py-2">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
-                <span className="font-cursive text-heading-lg font-bold">FZN Technology</span>
+                <span className="text-heading-lg font-bold">FZN Technology</span>
               </h1>
             </div>
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
           <p className="text-heading-sm font-cursive text-orange-500">FZN Gives Hitters the Best of Both Worlds</p>
+          </p>
           
           <div className="flex space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row">
             <div className="w-[100%] sm:w-[400px] md:w-[350px] xl:w-[500px] flex justify-center items-center relative overflow-hidden">
