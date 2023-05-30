@@ -114,7 +114,7 @@ export default function Technology() {
           />
         </div>
         <div className="max-w-[1440px] bg-blue-50 flex flex-col-reverse lg:flex-row rounded-xl overflow-hidden items-center my-16 text-center mx-4">
-          <Image src="/fzn-wood.webp" width="550" height="90" alt="baseball bat" />
+          <Image src="/surface.webp" width="550" height="90" alt="baseball bat" />
           <div className="text-left w-[100%] sm:w-[450px] md:w-[550px] py-16 px-8 lg:py-10 lg:px-10">
             <h4 className="text-heading-lg leading-[3rem] text-blue-900 mb-4">
               Motivated by History to Change
