@@ -36,7 +36,7 @@ export default function Technology() {
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
           <p className="text-heading-sm font-cursive text-orange-500">FZN Gives Hitters the Best of Both Worlds</p>
-          </p>
+          </div>
           
           <div className="flex space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row">
             <div className="w-[100%] sm:w-[400px] md:w-[350px] xl:w-[500px] flex justify-center items-center relative overflow-hidden">
