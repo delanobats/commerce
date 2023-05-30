@@ -89,7 +89,10 @@ export default function Home({ blogs }) {
           <p className="max-w-[600px] pt-2 text-blue-900">
             For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
             performance without sacrificing the unrivaled feel, classic sound and clean look of a
-            true wood stick. All thanks to FZN Technology.
+            true wood stick. 
+            </[p>
+          <p className="max-w-[600px] pt-2 text-blue-900">
+            All thanks to FZN Technology.
           </p>
           <Image
             src="/fzn-tech-patent.webp"
@@ -152,7 +155,7 @@ export default function Home({ blogs }) {
         <div className="w-[100%] py-20 px-8 flex flex-col items-center justify-center">
           <p className="text-heading-sm font-cursive text-orange-500">Follow us</p>
           <h2 className="text-heading-lg text-blue-900 mb-4 text-center">
-            Check out our social channels
+            Check us out on Instagram
           </h2>
           <iframe
             src="https://cdn.lightwidget.com/widgets/967a43eed19e5442b19367e737f23d52.html"
