@@ -90,7 +90,7 @@ export default function Home({ blogs }) {
             For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
             performance without sacrificing the unrivaled feel, classic sound and clean look of a
             true wood stick. 
-            </[p>
+            </p>
           <p className="max-w-[600px] pt-2 text-blue-900">
             All thanks to FZN Technology.
           </p>
