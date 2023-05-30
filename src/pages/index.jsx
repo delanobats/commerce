@@ -84,7 +84,7 @@ export default function Home({ blogs }) {
           </div>
         </div> */}
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4">
-          <p className="text-heading-sm font-cursive text-orange-500">Coming this summer</p>
+          <p className="text-heading-sm font-cursive text-orange-700">Coming this summer</p>
           <h2 className="text-heading-lg text-blue-900">FZN Technology</h2>
           <p className="max-w-[600px] pt-2 text-blue-900">
             For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
