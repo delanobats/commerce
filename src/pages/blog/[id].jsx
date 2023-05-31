@@ -6,7 +6,7 @@ export default function BlogDetail({ blog, blogs }) {
   return (
     <>
       <Head>
-        <title>Delano Bats - {blog.title}</title>
+        <title>{blog.title} - Delano Bats</title>
         <meta charSet="UTF-8" />
         <meta property="og:title" content="Delano Bats" key="title" />
         <meta name="description" content={blog.summary} />
@@ -20,7 +20,7 @@ export default function BlogDetail({ blog, blogs }) {
             <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">
               <div className="absolute top-0 z-[0] min-w-[100%] h-[100%]">
                 <img
-                  src={'https://delanobats.com' + blog.thumbnail_path}
+                  src={'https://store-jo3a1dt1.mybigcommerce.com' + blog.thumbnail_path}
                   className="object-cover object-center w-[100%] h-[100%]"
                   alt="hero background"
                 />
@@ -56,9 +56,9 @@ export default function BlogDetail({ blog, blogs }) {
                         <Link href={'/blog/' + blog.id} width="100%" className="flex items-center">
                           <div className="relative w-[180px] h-[80px]">
                             <img
-                              src={'https://delanobats.com' + blog.thumbnail_path}
+                              src={'https://store-jo3a1dt1.mybigcommerce.com' + blog.thumbnail_path}
                               className="object-cover object-center min-w-[100%] h-[100%]"
-                              alt="Hitting surface"
+                              alt="blog thumbnail"
                             />
                           </div>
                           <div className="px-4 pb-4 pt-2 w-[250px]">

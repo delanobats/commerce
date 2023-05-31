@@ -1,14 +1,12 @@
 import Image from 'next/image';
 import Head from 'next/head';
-import Link from 'next/link';
-import axiosInstance from '../utils/axios';
 import { BasicButton } from '../components/button/BasicButton';
 
 export default function About() {
   return (
     <>
       <Head>
-        <title>Delano Bats - About</title>
+        <title>About - Delano Bats</title>
         <meta charSet="UTF-8" />
         <meta property="og:title" content="Delano Bats" key="title" />
         <meta
@@ -38,7 +36,7 @@ export default function About() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4">
-          <p className="text-heading-sm font-cursive text-orange-500">About us</p>
+          <p className="text-heading-md font-cursive text-orange-500">About us</p>
           <h2 className="text-heading-lg text-blue-900">The Delano Story</h2>
           <p className="max-w-[650px] pt-2 text-blue-900">
             Delano is a small company with a big vision - to bring innovation to the great game of
@@ -56,7 +54,7 @@ export default function About() {
             src="/magazine.webp"
             width="450"
             height="330"
-            alt="baseball bat"
+            alt="Delano Bat Magazine"
             className="py-20"
           />
           <p className="max-w-[650px] pt-2 text-blue-900">
@@ -73,12 +71,7 @@ export default function About() {
         <div className="w-[100%] flex justify-center items-center bg-light-bg bg-cover py-0">
           <div className="max-w-[1440px] flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12 py-12 text-center px-4">
             <div className=" relative">
-              <Image
-                src="/fzn-tech-patent.webp"
-                width={400}
-                height={100}
-                alt="delano bat magazine"
-              />
+              <Image src="/fzn-tech-patent.webp" width={400} height={100} alt="fzn tech patent" />
             </div>
             <div className="flex flex-col items-center">
               <h2 className="text-heading-lg text-blue-900">Our Mission</h2>

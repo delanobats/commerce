@@ -133,7 +133,7 @@ export default function Team() {
   return (
     <>
       <Head>
-        <title>Delano Bats - Team</title>
+        <title>Team - Delano Bats</title>
         <meta charSet="UTF-8" />
         <meta property="og:title" content="Delano Bats" key="title" />
         <meta
@@ -177,7 +177,7 @@ export default function Team() {
                     <img
                       src={member.image}
                       className="object-cover object-center w-[100%] h-[100%]"
-                      alt="Hitting surface"
+                      alt="team member"
                     />
                   </div>
                   <div className="flex flex-col items-center px-4 pb-4 pt-0 text-center text-blue-900">

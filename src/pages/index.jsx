@@ -31,7 +31,7 @@ export default function Home({ blogs }) {
           </div>
           <div className="z-[1] text-heading-lg h-[250px]  md:h-[300px] lg:h-[350px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
             <div className="flex flex-col items-center py-2">
-              <Image src="/db-logo.webp" alt="Delano Bat" width="600" height="300" />
+              <Image src="/db-logo.webp" alt="Delano Bat Company" width="600" height="300" />
             </div>
           </div>
         </div>
@@ -84,28 +84,26 @@ export default function Home({ blogs }) {
           </div>
         </div> */}
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4">
-          <p className="text-heading-sm font-cursive text-orange-700">Coming this summer</p>
+          <p className="text-heading-md font-cursive text-orange-500">Coming this summer</p>
           <h2 className="text-heading-lg text-blue-900">FZN Technology</h2>
           <p className="max-w-[600px] pt-2 text-blue-900">
             For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
             performance without sacrificing the unrivaled feel, classic sound and clean look of a
-            true wood stick. 
-            </p>
-          <p className="max-w-[600px] pt-2 text-blue-900">
-            All thanks to FZN Technology.
+            true wood stick.
           </p>
+          <p className="max-w-[600px] pt-2 text-blue-900">All thanks to FZN Technology.</p>
           <Image
             src="/fzn-tech-patent.webp"
             width="450"
             height="330"
-            alt="baseball bat"
+            alt="fzn patent seal"
             className="py-20"
           />
-          <BasicButton label="Learn more" href="/technology" />
+          <BasicButton label="Read about FZN" href="/technology" />
         </div>
         <div className="w-[100%] flex justify-center items-center bg-light-bg bg-cover py-0">
           <div className="max-w-[1440px] flex flex-col items-center py-12 text-center">
-            <p className="text-heading-sm font-cursive text-orange-500">Blog</p>
+            <p className="text-heading-md font-cursive text-orange-500">Blog</p>
             <h2 className="text-heading-lg text-blue-900">Get on Deck</h2>
             <div className="flex space-y-8 lg:space-y-0 lg:space-x-8 flex-col lg:flex-row justify-center py-6">
               {blogs.map((blog, index) => {
@@ -117,9 +115,9 @@ export default function Home({ blogs }) {
                     <Link href={'blog/' + blog.id} width="100%">
                       <div className="relative w-[300px] h-[210px] md:w-[500px] md:h-[300px] lg:w-[300px] lg:h-[210px]">
                         <img
-                          src={'https://delanobats.com' + blog.thumbnail_path}
+                          src={'https://store-jo3a1dt1.mybigcommerce.com' + blog.thumbnail_path}
                           className="object-cover object-center w-[100%] h-[100%]"
-                          alt="Hitting surface"
+                          alt="blog thumnbnail"
                         />
                       </div>
                       <div className="px-4 pb-4 pt-2">
@@ -142,7 +140,7 @@ export default function Home({ blogs }) {
             <Image src="/magazine.webp" width={400} height={100} alt="delano bat magazine" />
           </div>
           <div className="flex flex-col items-center">
-            <p className="text-heading-sm font-cursive text-orange-500">Our Story</p>
+            <p className="text-heading-md font-cursive text-orange-500">Our Story</p>
             <h2 className="text-heading-lg text-blue-900">Delano Bat Company</h2>
             <p className="max-w-[600px] pb-6 text-blue-900">
               Delano is a small company with a big vision - to bring innovation to the great game of
@@ -153,12 +151,13 @@ export default function Home({ blogs }) {
           </div>
         </div>
         <div className="w-[100%] py-20 px-8 flex flex-col items-center justify-center">
-          <p className="text-heading-sm font-cursive text-orange-500">Follow us</p>
+          <p className="text-heading-md font-cursive text-orange-500">Follow us</p>
           <h2 className="text-heading-lg text-blue-900 mb-4 text-center">
             Check us out on Instagram
           </h2>
           <iframe
             src="https://cdn.lightwidget.com/widgets/967a43eed19e5442b19367e737f23d52.html"
+            title="Instagram posts"
             allowtransparency="true"
             className="w-[100%] h-[420px] sm:w-[480px] sm:h-[580px] md:w-[700px] md:h-[800px] lg:w-[900px] lg:h-[1000px] xl:w-[1200px] xl:h-[1300px]"
           ></iframe>

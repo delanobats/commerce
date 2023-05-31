@@ -31,13 +31,6 @@ const Modal = ({ children, onClose }) => {
   return (
     <div className="fixed bg-dialog-bg flex items-center inset-0 z-50 justify-center backdrop-blur-[2px]">
       <div className="" role="dialog" ref={ref}>
-        {/* <button
-          onClick={() => onClose()}
-          aria-label="Close panel"
-          className="hover:text-accent-5 transition ease-in-out duration-150 focus:outline-none absolute right-0 top-0 m-6"
-        >
-          <AiOutlineClose className="h-6 w-6" />
-        </button> */}
         {children}
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function Shop({ blogs }) {
   return (
     <>
       <Head>
-        <title>Delano Bats - Blog</title>
+        <title>Blog - Delano Bats</title>
         <meta charSet="UTF-8" />
         <meta property="og:title" content="Delano Bats" key="title" />
         <meta
@@ -48,9 +48,9 @@ export default function Shop({ blogs }) {
                     <Link href={'blog/' + blog.id} width="100%">
                       <div className="relative w-[100%] h-[190px] md:w-[500px] md:h-[300px] lg:w-[300px] lg:h-[210px]">
                         <img
-                          src={'https://delanobats.com' + blog.thumbnail_path}
+                          src={'https://store-jo3a1dt1.mybigcommerce.com' + blog.thumbnail_path}
                           className="object-cover object-center w-[100%] h-[100%]"
-                          alt="Hitting surface"
+                          alt="blog thumbnail"
                         />
                       </div>
                       <div className="px-4 pb-4 pt-2">
@@ -76,9 +76,9 @@ export default function Shop({ blogs }) {
                     <Link href={'blog/' + blog.id} width="100%" className="flex items-center">
                       <div className="relative w-[180px] h-[80px]">
                         <img
-                          src={'https://delanobats.com' + blog.thumbnail_path}
+                          src={'https://store-jo3a1dt1.mybigcommerce.com' + blog.thumbnail_path}
                           className="object-cover object-center min-w-[100%] h-[100%]"
-                          alt="Hitting surface"
+                          alt="blog thumbnail"
                         />
                       </div>
                       <div className="px-4 pb-4 pt-2 w-[250px]">

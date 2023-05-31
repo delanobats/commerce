@@ -6,7 +6,7 @@ export default function TeamDetail({ teamMember, slug }) {
     <>
       <Head>
         <title>
-          Delano Bats - {teamMember.firstname} {teamMember.lastname}
+          {teamMember.firstname} {teamMember.lastname} - Delano Bats
         </title>
         <meta charSet="UTF-8" />
         <meta property="og:title" content="Delano Bats" key="title" />
@@ -50,7 +50,7 @@ export default function TeamDetail({ teamMember, slug }) {
             ></div>
           </div>
           <div className="w-[280px] pb-8 md:pb-0 sm:w-[400px] md:w-[300px] lg:w-[400px]">
-            <img src={teamMember.image} className="w-[100%]" alt="hero background" />
+            <img src={teamMember.image} className="w-[100%]" alt="team member" />
           </div>
         </div>
       </div>

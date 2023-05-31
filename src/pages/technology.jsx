@@ -5,7 +5,7 @@ export default function Technology() {
   return (
     <>
       <Head>
-        <title>Delano Bats - Technology</title>
+        <title>FZN Technology - Delano Bats</title>
         <meta charSet="UTF-8" />
         <meta property="og:title" content="Delano Bats" key="title" />
         <meta
@@ -35,16 +35,17 @@ export default function Technology() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
-          <p className="text-heading-sm font-cursive text-orange-500">FZN Gives Hitters the Best of Both Worlds</p>
-          </div>
-          
+          <p className="text-heading-md font-cursive text-orange-500 mb-6">
+            FZN Gives Hitters the Best of Both Worlds
+          </p>
+
           <div className="flex space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row">
             <div className="w-[100%] sm:w-[400px] md:w-[350px] xl:w-[500px] flex justify-center items-center relative overflow-hidden">
               <div className="absolute top-0 z-[0] min-w-[100%] h-[100%]">
                 <img
                   src="/performance.webp"
                   className="object-cover object-center w-[100%] h-[100%]"
-                  alt="hero background"
+                  alt="performance bat"
                 />
               </div>
               <div className="z-[1] text-heading-lg h-[350px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
@@ -64,7 +65,7 @@ export default function Technology() {
                 <img
                   src="/wood.webp"
                   className="object-cover object-center w-[100%] h-[100%]"
-                  alt="hero background"
+                  alt="piles of wood logs"
                 />
               </div>
               <div className="z-[1] text-heading-lg h-[350px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
@@ -85,14 +86,16 @@ export default function Technology() {
               src="/blog-2.webp"
               width="500"
               height="330"
-              alt="baseball bat"
+              alt="playing baseball"
               className="py-20"
             />
             <div className="lg:px-12 w-[100%] max-w-[600px]">
-              <h2 className="text-heading-lg text-blue-900">The Next Evolution in Baseball Bat Technology</h2>
+              <h2 className="text-heading-lg text-blue-900 leading-[3.5rem] mb-2">
+                The Next Evolution in Baseball Bat Technology
+              </h2>
               <p className="max-w-[650px] pt-2 text-blue-900">
-                FZN Technology was invented and patented by Delano Bat Company. FZN is a bat design and
-                manufacturing process that enables the classic lumber to push up to the limit of
+                FZN Technology was invented and patented by Delano Bat Company. FZN is a bat design
+                and manufacturing process that enables the classic lumber to push up to the limit of
                 BBCOR-allowed performance. The first of its kind!
               </p>
               <p className="max-w-[650px] pt-2 text-blue-900">
@@ -102,7 +105,7 @@ export default function Technology() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
-          <p className="text-heading-sm font-cursive text-orange-500">How is FZN Different?</p>
+          <p className="text-heading-md font-cursive text-orange-500">How is FZN Different?</p>
           <h2 className="text-heading-lg text-blue-900">
             Max Pop - Massive Barrel - HUGE Sweet Spot
           </h2>
@@ -110,7 +113,7 @@ export default function Technology() {
             src="/table.webp"
             width="800"
             height="90"
-            alt="baseball bat"
+            alt="FZN Technology comparison"
             className="py-8 px-4"
           />
         </div>
@@ -128,8 +131,9 @@ export default function Technology() {
             </p>
             <p className="text-body-md text-blue-900">
               In that time, wood was slowly disregarded and never seriously considered as a material
-              for high performing bats in the youth market. Beyond MLB, wood bats were relegated to wood bat leagues and
-              for those that craved the classic feel, look, sound and tradition of wood.  Now FZN brings you the Best of Both Worlds.
+              for high performing bats in the youth market. Beyond MLB, wood bats were relegated to
+              wood bat leagues and for those that craved the classic feel, look, sound and tradition
+              of wood. Now FZN brings you the Best of Both Worlds.
             </p>
           </div>
         </div>
@@ -148,9 +152,9 @@ export default function Technology() {
               We were motivated by our customers and the realization that the history and aesthetic
               design components of the traditional baseball bat were being completely neglected in
               the chase for performance. Baseball bats were still stuck in circa 1970s era thinking.
-              There was no product in the market attempting to bridge between classic and new, so that
-              became our mission - fuse together the history of baseball (wood) with the
-              most modern construction materials (composites) to give hitters the benefits of both.
+              There was no product in the market attempting to bridge between classic and new, so
+              that became our mission - fuse together the history of baseball (wood) with the most
+              modern construction materials (composites) to give hitters the benefits of both.
             </p>
             <p className="text-body-md text-blue-900">
               Without being tied to legacy techniques or technologies, and with a fresh perspective
@@ -158,7 +162,12 @@ export default function Technology() {
               tradition and technology.
             </p>
           </div>
-          <Image src="/bat-blueprints.webp" width="550" height="90" alt="baseball bat" />
+          <Image
+            src="/bat-blueprints.webp"
+            width="550"
+            height="90"
+            alt="fzn technology blueprint"
+          />
         </div>
       </div>
     </>
