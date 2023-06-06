@@ -21,7 +21,7 @@ export default function Shop({ blogs }) {
         <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">
           <div className="absolute top-0 z-[0] min-w-[100%] h-[100%]">
             <img
-              src="/team.webp"
+              src="/on-deck-c.webp"
               className="object-cover object-center w-[100%] h-[100%]"
               alt="hero background"
             />
