@@ -34,6 +34,16 @@ body {
   font-family: 'Roboto', 'sans-serif';
 }
 
+h1,
+h2 {
+  line-height: 3.5rem;
+}
+
+h3,
+h4 {
+  line-height: 3rem;
+}
+
 p {
   /* line-height: 20px; */
   font-family: 'Teko', sans-serif;

@@ -30,7 +30,7 @@ export default function Newsletter() {
 
   return (
     <div className="w-[100%] max-w-[1024px] flex flex-col justify-center items-center box-shadow--4 px-8 rounded-md py-8 sm:pt-8 sm:pb-12 z-[10] absolute top-[-230px] sm:top-[-170px] bg-white-50 text-blue-900">
-      <h3 className="text-heading-md">Newsletter Signup </h3>
+      <h3 className="text-heading-md lg:text-heading-lg">Newsletter Signup </h3>
       <form
         onSubmit={handleSubmit}
         className="flex space-y-4 md:space-y-0 md:space-x-8 flex-col md:flex-row items-center md:items-end justify-center w-[100%]"
@@ -51,7 +51,7 @@ export default function Newsletter() {
         </div>
         <button
           type="submit"
-          className="bg-blue-600 hover:bg-blue-700 text-white-50 text-body-lg py-1 pt-2 px-12 leading-9 rounded-full focus:outline-none focus:shadow-outline"
+          className="bg-orange-700 hover:opacity-90 text-white-50 text-[24px] py-1 pt-2 px-12 leading-9 rounded-full focus:outline-none focus:shadow-outline"
         >
           Subscribe
         </button>

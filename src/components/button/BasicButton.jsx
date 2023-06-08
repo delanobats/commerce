@@ -27,8 +27,8 @@ export const BasicButton = ({
         styles[`sb-basic-button--${size}`],
         styles[`sb-basic-button--${shape}`],
         styles[`sb-basic-button--${configuration}`],
-        'bg-blue-500',
-        'text-white-500',
+        'bg-orange-700',
+        'text-white-50',
         'box-shadow--4',
         'hover:opacity-90',
         {

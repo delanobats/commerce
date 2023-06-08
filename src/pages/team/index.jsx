@@ -157,7 +157,7 @@ export default function Team() {
             <div className="flex flex-col items-center py-2">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
                 <span className="font-sans text-heading-lg font-bold">
-                  Meet <span className="font-cursive">the</span> Team
+                  Meet <span className="font-cursive text-orange-500">the</span> Team
                 </span>
               </h1>
             </div>

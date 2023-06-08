@@ -29,7 +29,7 @@ export default function About() {
             <div className="flex flex-col items-center py-2">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
                 <span className="font-sans text-heading-lg font-bold">
-                  The <span className="font-cursive">Delano</span> Story
+                  The <span className="font-cursive text-orange-500">Delano</span> Story
                 </span>
               </h1>
             </div>
@@ -37,7 +37,9 @@ export default function About() {
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4">
           <p className="text-heading-md font-cursive text-orange-500">About us</p>
-          <h2 className="text-heading-lg text-blue-900">The Delano Story</h2>
+          <h2 className="text-heading-lg lg:text-[56px] max-w-[600px] mb-3 mt-1 text-blue-900">
+            The Delano Story
+          </h2>
           <p className="max-w-[650px] pt-2 text-blue-900">
             Delano is a small company with a big vision - to bring innovation to the great game of
             baseball while staying true to the unique roots, traditions and history of America's
@@ -74,7 +76,9 @@ export default function About() {
               <Image src="/fzn-tech-patent.webp" width={400} height={100} alt="fzn tech patent" />
             </div>
             <div className="flex flex-col items-center">
-              <h2 className="text-heading-lg text-blue-900">Our Mission</h2>
+              <h2 className="text-heading-lg lg:text-[56px] max-w-[600px] mb-3 mt-1 text-blue-900">
+                Our Mission
+              </h2>
               <p className="max-w-[600px] pb-8 text-blue-900">
                 To take baseball bat technology to the next level.
               </p>
@@ -83,7 +87,9 @@ export default function About() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4 pb-36">
-          <h2 className="text-heading-lg text-blue-900">Our Team</h2>
+          <h2 className="text-heading-lg lg:text-[56px] max-w-[600px] mb-3 mt-1 text-blue-900">
+            Our Team
+          </h2>
           <p className="max-w-[600px] pb-8 text-blue-900">
             We hope it’s the beginning of a long partnership of providing great products and lasting
             success and memories on the diamond. Learn more about our team!

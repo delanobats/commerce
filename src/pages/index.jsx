@@ -82,10 +82,15 @@ export default function Home({ blogs }) {
               </div>
             </div>
           </div>
+
         </div> */}
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4">
-          <p className="text-heading-md font-cursive text-orange-500">Coming this summer</p>
-          <h2 className="text-heading-lg text-blue-900">FZN Technology</h2>
+          <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">
+            Coming this summer
+          </p>
+          <h2 className="text-heading-lg lg:text-[56px] text-blue-900 max-w-[600px] mb-3 mt-1">
+            FZN Technology
+          </h2>
           <p className="max-w-[600px] pt-2 text-blue-900">
             For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
             performance without sacrificing the unrivaled feel, classic sound and clean look of a
@@ -103,8 +108,10 @@ export default function Home({ blogs }) {
         </div>
         <div className="w-[100%] flex justify-center items-center bg-light-bg bg-cover py-0">
           <div className="max-w-[1440px] flex flex-col items-center py-12 text-center">
-            <p className="text-heading-md font-cursive text-orange-500">Blog</p>
-            <h2 className="text-heading-lg text-blue-900">Get on Deck</h2>
+            <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">Blog</p>
+            <h2 className="text-heading-lg lg:text-[56px] text-blue-900  max-w-[600px] mb-3 mt-1">
+              Get on Deck
+            </h2>
             <div className="flex space-y-8 lg:space-y-0 lg:space-x-8 flex-col lg:flex-row justify-center py-6">
               {blogs.map((blog, index) => {
                 return (
@@ -140,8 +147,12 @@ export default function Home({ blogs }) {
             <Image src="/magazine.webp" width={400} height={100} alt="delano bat magazine" />
           </div>
           <div className="flex flex-col items-center">
-            <p className="text-heading-md font-cursive text-orange-500">Our Story</p>
-            <h2 className="text-heading-lg text-blue-900">Delano Bat Company</h2>
+            <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">
+              Our Story
+            </p>
+            <h2 className="text-heading-lg lg:text-[56px] text-blue-900  max-w-[600px] mb-3 mt-1">
+              Delano Bat Company
+            </h2>
             <p className="max-w-[600px] pb-6 text-blue-900">
               Delano is a small company with a big vision - to bring innovation to the great game of
               baseball while staying true to the unique roots, traditions and history of America's
@@ -151,8 +162,10 @@ export default function Home({ blogs }) {
           </div>
         </div>
         <div className="w-[100%] py-20 px-8 flex flex-col items-center justify-center">
-          <p className="text-heading-md font-cursive text-orange-500">Follow us</p>
-          <h2 className="text-heading-lg text-blue-900 mb-4 text-center">
+          <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">
+            Follow us
+          </p>
+          <h2 className="text-heading-lg lg:text-[56px] text-blue-900 mb-4 text-center max-w-[600px] mt-1">
             Check us out on Instagram
           </h2>
           <iframe

@@ -35,9 +35,10 @@ export default function Technology() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
-          <p className="text-heading-md font-cursive text-orange-500 mb-6">
+          <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">New</p>
+          <h2 className="text-heading-lg lg:text-[56px] font-sans text-blue-500 mb-10">
             FZN Gives Hitters the Best of Both Worlds
-          </p>
+          </h2>
 
           <div className="flex space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row">
             <div className="w-[100%] sm:w-[400px] md:w-[350px] xl:w-[500px] flex justify-center items-center relative overflow-hidden">
@@ -84,13 +85,13 @@ export default function Technology() {
           <div className="max-w-[1440px] flex flex-col-reverse lg:flex-row justify-center lg:space-x-8 items-center pt-12 text-center px-4">
             <Image
               src="/blog-2.webp"
-              width="500"
+              width="600"
               height="330"
               alt="playing baseball"
               className="py-20"
             />
             <div className="lg:px-12 w-[100%] max-w-[600px]">
-              <h2 className="text-heading-lg text-blue-900 leading-[3.5rem] mb-2">
+              <h2 className="text-heading-lg lg:text-[56px] max-w-[600px] mb-3 mt-1 text-blue-900">
                 The Next Evolution in Baseball Bat Technology
               </h2>
               <p className="max-w-[650px] pt-2 text-blue-900">
@@ -99,14 +100,15 @@ export default function Technology() {
                 BBCOR-allowed performance. The first of its kind!
               </p>
               <p className="max-w-[650px] pt-2 text-blue-900">
-                In fact, our first attempt at BBCOR certification failed for TOO MUCH pop!
+                In fact, our first attempt at BBCOR certification failed for{' '}
+                <span className="text-orange-500">TOO MUCH</span> pop!
               </p>
             </div>
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
           <p className="text-heading-md font-cursive text-orange-500">How is FZN Different?</p>
-          <h2 className="text-heading-lg text-blue-900">
+          <h2 className="text-heading-lg lg:text-[56px] max-w-[750px] mb-3 mt-1 text-blue-900">
             Max Pop - Massive Barrel - HUGE Sweet Spot
           </h2>
           <Image
@@ -120,7 +122,7 @@ export default function Technology() {
         <div className="max-w-[1440px] bg-blue-50 flex flex-col-reverse lg:flex-row rounded-xl overflow-hidden items-center my-16 text-center mx-4">
           <Image src="/surface.webp" width="550" height="90" alt="baseball bat" />
           <div className="text-left w-[100%] sm:w-[450px] md:w-[550px] py-16 px-8 lg:py-10 lg:px-10">
-            <h4 className="text-heading-lg leading-[3rem] text-blue-900 mb-4">
+            <h4 className="text-heading-lg lg:text-[56px] text-blue-900 mb-4">
               Motivated by History to Change
             </h4>
             <p className="text-body-md mb-4 text-blue-900">
@@ -137,9 +139,9 @@ export default function Technology() {
             </p>
           </div>
         </div>
-        <div className="max-w-[1440px] flex flex-col lg:flex-row rounded-lg overflow-hidden items-center my-16 text-center mx-4 pb-12">
+        <div className="max-w-[1440px] flex flex-col lg:flex-row rounded-lg overflow-hidden items-center my-16 text-center mx-4">
           <div className="text-left w-[100%] sm:w-[450px] md:w-[550px] py-16 px-4 lg:py-10 lg:px-10">
-            <h4 className="text-heading-lg leading-[3rem] text-blue-900 mb-4">
+            <h4 className="text-heading-lg lg:text-[56px] text-blue-900 mb-4">
               Our Heritage & Mission
             </h4>
             <p className="text-body-md mb-4 text-blue-900">
@@ -169,6 +171,34 @@ export default function Technology() {
             alt="fzn technology blueprint"
           />
         </div>
+        <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">
+          <div className="absolute top-0 z-[0] min-w-[100%] h-[100%]">
+            <img
+              src="/ballpark-min.webp"
+              className="object-cover object-center w-[100%] h-[100%]"
+              alt="hero background"
+            />
+          </div>
+          <div className="z-[1] text-heading-lg h-[100%] w-[100%] bg-hero-bg flex items-center justify-center">
+            <div className="flex flex-col items-center justify-center py-2 h-[100%]">
+              <h1 className="font-sans md:pb-4 text-orange-500 pt-8 md:pt-14">
+                <span className="text-heading-sm md:text-heading-lg mb-8">THE</span>
+                <span className="text-heading-[90px] md:text-[118px] font-bold font-cursive px-4 text-white-500">
+                  Original
+                </span>
+                <span className="font-bold ml-2 md:ml-6 text-heading-md md:text-heading-lg lg:text-[78px]">
+                  <i>GAMER</i>
+                </span>
+              </h1>
+              <p className="text-white-500 text-body-lg lg:text-heading-md pt-4 font-semibold">
+                DO YOU WANT TO BE AN OG?
+              </p>
+            </div>
+          </div>
+        </div>
+        <p className="mb-20 px-4">
+          Sign up to get FZN insider news and product testing updates on availability of The OG.
+        </p>
       </div>
     </>
   );
