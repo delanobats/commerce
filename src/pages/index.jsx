@@ -91,18 +91,18 @@ export default function Home({ blogs }) {
           <h2 className="text-heading-lg lg:text-[56px] text-blue-900 max-w-[600px] mb-3 mt-1">
             FZN Technology
           </h2>
-          <p className="max-w-[600px] pt-2 text-blue-900">
+          <p className="max-w-[700px] pt-2 text-blue-900">
             For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
             performance without sacrificing the unrivaled feel, classic sound and clean look of a
             true wood stick.
           </p>
           <p className="max-w-[600px] pt-2 text-blue-900">All thanks to FZN Technology.</p>
           <Image
-            src="/fzn-tech-patent.webp"
-            width="450"
+            src="/bat-selection-short-min.webp"
+            width="700"
             height="330"
-            alt="fzn patent seal"
-            className="py-20"
+            alt="picking from a selection of bats"
+            className="py-12"
           />
           <BasicButton label="Read about FZN" href="/technology" />
         </div>

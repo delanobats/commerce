@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useUI } from '../../contexts/managed-ui';
+import Link from 'next/link';
 
 export const team = [
   {
@@ -168,7 +169,7 @@ export default function Team() {
           <div className="flex flex-wrap flex-row justify-start w-[100%]">
             {team.map((member, index) => {
               return (
-                <a
+                <Link
                   className="flex flex-col flex-start text-left w-[100%] m-4 md:w-[45%] xl:w-[31%] space-y-4 box-shadow--4 rounded-lg overflow-hidden hover:cursor-pointer"
                   key={index}
                   href={'/team' + member.url}
@@ -188,7 +189,7 @@ export default function Team() {
                     <p className="text-body-lg font-thin leading-7 py-2">{member.job}</p>
                     <button className="text-orange-600 text-body-lg">Learn more</button>
                   </div>
-                </a>
+                </Link>
               );
             })}
           </div>

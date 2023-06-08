@@ -35,7 +35,6 @@ export default function Technology() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
-          <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">New</p>
           <h2 className="text-heading-lg lg:text-[56px] font-sans text-blue-500 mb-10">
             FZN Gives Hitters the Best of Both Worlds
           </h2>
