@@ -36,7 +36,7 @@ export default function BlogDetail({ blog, blogs }) {
               </div>
             </div>
             <div className="max-w-[1440px] flex justify-center lg:space-x-8 w-[100%] px-4 py-8 text-left">
-              <div className="max-w-[800px] w-[100%] flex flex-col">
+              <div className="max-w-[800px] w-[100%] flex flex-col text-blue-900">
                 <h1 className="text-heading-lg leading-[3.5rem]">{blog.title}</h1>
                 <p className="text-body-lg">
                   By: {blog.author.split(',')[0]} /{' '}

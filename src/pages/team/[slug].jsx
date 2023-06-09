@@ -39,7 +39,7 @@ export default function TeamDetail({ teamMember, slug }) {
           </div>
         </div>
         <div className="max-w-[1440px] flex justify-center flex-col-reverse md:flex-row md:space-x-8 w-[100%] px-4 py-8 text-left">
-          <div className="md:max-w-[550px] lg:max-w-[800px] w-[100%] flex flex-col">
+          <div className="md:max-w-[550px] lg:max-w-[800px] w-[100%] flex flex-col text-blue-900">
             <h1 className="text-heading-lg leading-[3.5rem]">
               {teamMember.firstname} {teamMember.lastname}
             </h1>
