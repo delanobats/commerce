@@ -36,7 +36,7 @@ export default function Technology() {
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
           <h2 className="text-heading-lg lg:text-[56px] font-sans text-blue-500 mb-10">
-            FZN Gives Hitters the Best of Both Worlds
+            FZN Technology Gives Hitters the Best of Both Worlds
           </h2>
 
           <div className="flex space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row">
@@ -72,7 +72,7 @@ export default function Technology() {
                 <div className="flex flex-col items-center p-4">
                   <h2 className="text-heading-md leading-8 mb-6">True wood look, feel and sound</h2>
                   <p className="text-body-lg">
-                    FZN a true wood bat that gives hitters the unrivaled feel, classic sound and
+                    FZN is a true wood bat that gives hitters the unrivaled feel, classic sound and
                     clean look of a traditional stick.
                   </p>
                 </div>
@@ -106,9 +106,9 @@ export default function Technology() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
-          <p className="text-heading-md font-cursive text-orange-500">How is FZN Different?</p>
+          <p className="text-heading-md font-cursive text-orange-500">How is FZN Technology Different?</p>
           <h2 className="text-heading-lg lg:text-[56px] max-w-[750px] mb-3 mt-1 text-blue-900">
-            Max Pop - Massive Barrel - HUGE Sweet Spot
+            Max Performance and Durability with the Feel of Wood
           </h2>
           <Image
             src="/table.webp"
@@ -122,7 +122,7 @@ export default function Technology() {
           <Image src="/surface.webp" width="550" height="90" alt="baseball bat" />
           <div className="text-left w-[100%] sm:w-[450px] md:w-[550px] py-16 px-8 lg:py-10 lg:px-10">
             <h4 className="text-heading-lg lg:text-[56px] text-blue-900 mb-4">
-              Motivated by History to Change
+              Fusing Tradition with Technology
             </h4>
             <p className="text-body-md mb-4 text-blue-900">
               The first alternative to the traditional wood bat gained popularity in the 1970s,
