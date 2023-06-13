@@ -107,9 +107,9 @@ export default function Home({ blogs }) {
         </div>
         <div className="w-[100%] flex justify-center items-center bg-light-bg bg-cover py-0">
           <div className="max-w-[1440px] flex flex-col items-center py-12 text-center">
-            <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">Blog</p>
+            <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">Our Blog</p>
             <h2 className="text-heading-lg lg:text-[56px] text-blue-900  max-w-[600px] mb-3 mt-1">
-              Get on Deck
+              On Deck
             </h2>
             <div className="flex space-y-8 lg:space-y-0 lg:space-x-8 flex-col lg:flex-row justify-center py-6">
               {blogs.map((blog, index) => {
