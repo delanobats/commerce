@@ -86,15 +86,14 @@ export default function Home({ blogs }) {
         </div> */}
         <div className="max-w-[1440px] flex flex-col items-center py-12 text-center px-4">
           <p className="text-heading-sm lg:text-heading-md font-cursive text-orange-500">
-            Coming this summer
+            Coming Soon
           </p>
           <h2 className="text-heading-lg lg:text-[56px] text-blue-900 max-w-[600px] mb-3 mt-1">
             FZN Technology
           </h2>
           <p className="max-w-[700px] pt-2 text-blue-900">
-            For the first time ever, hitters can have a bat in their bag that delivers MAXIMUM BBCOR
-            performance without sacrificing the unrivaled feel, classic sound and clean look of a
-            true wood stick.
+            For the first time ever, hitters can enjoy the unrivaled feel, classic sound and clean look of a true wood stick 
+            that also delivers MAXIMUM BBCOR performance.  
           </p>
           <p className="max-w-[600px] pt-2 text-blue-900">All thanks to FZN Technology.</p>
           <Image
