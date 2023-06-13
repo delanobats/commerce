@@ -36,7 +36,8 @@ export default function Technology() {
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
           <h2 className="text-heading-lg lg:text-[56px] font-sans text-blue-500 mb-10">
-            FZN Technology Gives Hitters the Best of Both Worlds
+            FZN Technology Gives Hitters the{' '}
+            <span className="font-cursive text-orange-500">Best of Both Worlds</span>
           </h2>
 
           <div className="flex space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row">
@@ -106,7 +107,9 @@ export default function Technology() {
           </div>
         </div>
         <div className="max-w-[1440px] flex flex-col items-center py-16 text-center px-4">
-          <p className="text-heading-md font-cursive text-orange-500">How is FZN Technology Different?</p>
+          <p className="text-heading-md font-cursive text-orange-500">
+            How is <span className="font-sans text-heading-lg">FZN</span> Technology Different?
+          </p>
           <h2 className="text-heading-lg lg:text-[56px] max-w-[750px] mb-3 mt-1 text-blue-900">
             Max Performance and Durability with the Feel of Wood
           </h2>
@@ -170,7 +173,12 @@ export default function Technology() {
             alt="fzn technology blueprint"
           />
         </div>
-        <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden">
+        <p className="px-4 text-heading-sm text-center max-w-[850px] my-4">
+          The first bat in the FZN Technology Series will be a BBCOR bat called The Original Gamer
+          (The OG). Sign up for our newsletter to get FZN insider news and product testing updates
+          on the availability of The OG.
+        </p>
+        <div className="w-[100%] flex justify-center items-center h-[250px] md:h-[300px] lg:h-[350px] relative overflow-hidden mb-20">
           <div className="absolute top-0 z-[0] min-w-[100%] h-[100%]">
             <img
               src="/ballpark-min.webp"
@@ -195,9 +203,6 @@ export default function Technology() {
             </div>
           </div>
         </div>
-        <p className="mb-20 px-4">
-          The first bat in the FZN Technology Series will be a BBCOR bat called The Original Gamer (The OG).  Sign up for our newsletter to get FZN insider news and product testing updates on the availability of The OG.
-        </p>
       </div>
     </>
   );

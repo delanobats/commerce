@@ -27,12 +27,17 @@ export default function Shop({ blogs }) {
             />
           </div>
           <div className="z-[1] text-heading-lg h-[400px] w-[100%] bg-hero-bg flex items-center justify-center text-white-500">
-            <div className="flex flex-col items-center py-2">
+            <div className="flex flex-col items-center py-2 max-w-[650px] text-center">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
                 <span className="text-heading-lg font-bold">
                   <span className="font-cursive text-orange-500">On</span> Deck - Our Blog
                 </span>
               </h1>
+              <p>
+                Subscribe to our newsletter below to receive our latest blog posts along with
+                insider news about FZN Technology and updates on The Original Gamer's progress to
+                market.
+              </p>
             </div>
           </div>
         </div>
