@@ -30,7 +30,7 @@ export default function Shop({ blogs }) {
             <div className="flex flex-col items-center py-2">
               <h1 className="text-center text-heading-sm sm:text-heading-md md:text-heading-lg font-sans md:pb-2 leading-[3rem]">
                 <span className="text-heading-lg font-bold">
-                  Get <span className="font-cursive text-orange-500">on</span> Deck
+                  <span className="font-cursive text-orange-500">On</span> Deck - Our Blog
                 </span>
               </h1>
             </div>
